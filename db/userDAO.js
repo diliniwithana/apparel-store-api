@@ -156,7 +156,7 @@ class UserDAO {
               }
               connection.release();
               console.log("Customer added>>>>>>>>>>>>>>>>>");
-              return resolve("cusomer added");
+              return resolve("Cusomer Added");
             });
           })
           .catch(err => {
@@ -195,7 +195,7 @@ class UserDAO {
               }
               connection.release();
               console.log("Retailer added>>>>>>>>>>>>>>>>>");
-              return resolve("cusomer added");
+              return resolve("Retailer Added");
             });
           })
           .catch(err => {
